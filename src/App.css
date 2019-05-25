@@ -64,9 +64,15 @@
 /* VIDEO COMPONENTS CSS */
 
 .section-content-video {
-
 }
 
 .div-content-video-grid-main {
+}
 
+.div-content-video-grid-duel {
+  display: flex;
+}
+
+.div-content-video-grid-single {
+  justify-self: flex-start;
 }
