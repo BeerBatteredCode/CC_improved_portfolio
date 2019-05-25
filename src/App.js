@@ -6,13 +6,17 @@ import Section from "./Components/Section";
 import Video from "./Components/Video";
 import Portfolio from "./Components/Portfolio";
 import Project from "./Components/Project";
+import Footer from "./Components/Footer";
+import WhatsNext from "./Components/WhatsNext";
+import AboutMe from "./Components/AboutMe";
 import aboutMe from "./Text";
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <Section
+        <AboutMe
           title="About Me"
           subtitle={aboutMe}
           dark={true}
@@ -36,12 +40,13 @@ class App extends Component {
           dark={false}
           id="section4"
         />
-        <Section
+        <WhatsNext
           title="What Comes Next"
           subtitle={aboutMe}
           dark={true}
           id="section5"
         />
+        <Footer />
       </div>
     );
   }
