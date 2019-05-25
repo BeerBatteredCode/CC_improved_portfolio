@@ -4,6 +4,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import Video from "./Components/Video";
+import Portfolio from "./Components/Portfolio";
+import Project from "./Components/Project";
 import aboutMe from "./Text";
 class App extends Component {
   render() {
@@ -22,13 +24,13 @@ class App extends Component {
           dark={false}
           id="section2"
         />
-        <Section
+        <Portfolio
           title="Grant Rutherford Portfolio"
           subtitle={aboutMe}
           dark={true}
           id="section3"
         />
-        <Section
+        <Project
           title="My Work"
           subtitle={aboutMe}
           dark={false}
