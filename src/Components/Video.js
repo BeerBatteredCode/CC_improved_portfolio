@@ -16,10 +16,10 @@ export default function Video({ title, subtitle, dark, id }) {
                 </div>
                 <div className="div-content-video-grid-duel">
                     <div className="div-content-video-grid-single">
-                        <h1>{title}</h1>
                         <p>{subtitle}</p>
                     </div>
                     <div className="div-content-video-grid-single">
+                        <h1>{title}</h1>
                         <p>{subtitle}</p>
                     </div>
                 </div>
