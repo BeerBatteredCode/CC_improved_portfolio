@@ -18,6 +18,7 @@ export default function Portfolio({dark, id }) {
             className="main-logo2"
             alt="MainLogo"
           />
+          <h4>HTML/CSS | Ruby | Javascript | Java | Spring | React | MongoDb</h4>
         </div>
       </div>
     </div>

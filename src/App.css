@@ -12,10 +12,21 @@
   background: linear-gradient(to right, #F2994A , #F2C94C);
 }
 
+.footer {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to right, #F2994A , #F2C94C);
+}
+
 .nav-logo {
   height: 60px;
   width: 60px;
-  transition: 10s all ease-in-out;
+  transition: 30s all ease-in-out;
   /* border-radius: 90%; */
 }
 
@@ -38,6 +49,23 @@
   color: #fafafa;
 }
 
+.footer-items {
+}
+
+.footer .footer-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer .footer-content a {
+  color: #fafafa;
+}
+
 .nav-item {
   display: inline;
   margin-left: 2rem;
@@ -49,11 +77,23 @@
   cursor: pointer;
 }
 
+.footer-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+  padding-right: 3em;
+}
+
+.footer-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
 .section {
   display: flex;
   height: fit-content;
   display: flex;
-  padding: 10em;
+  padding: 2.5em;
 }
 
 .section-dark {
@@ -68,6 +108,7 @@
   margin: 0 auto;
   padding: 40px;
 }
+
 /* ABOUTME COMPONENTS CSS */
 
 .section-content-aboutme {
@@ -85,8 +126,9 @@
   align-items: center;
 }
 
-.div-content-aboutme-grid-single {
+.div-content-aboutme-grid-single-odd {
   padding: 1em;
+  text-align: right;
 }
 
 /* VIDEO COMPONENTS CSS */
@@ -106,14 +148,14 @@
 
 .div-content-video-grid-main hr {
   border-top: 3px dashed #F2995A;
-  width: 95%;
+  width: 90%;
 }
 
 .div-content-video-grid-duel {
   display: flex;
   align-items: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .div-content-video-grid-single-odd {
@@ -127,30 +169,25 @@
 
 /* PORTFOLIO HOMEPAGE CSS */
 
-.pawpalImage {
-  width: 30em;
-  height: auto;
-}
-
-.imdbeatdownImage {
-  width: 30em;
-  height: auto;
-}
-
 .section-content-portfolio {
   position: relative;
   top: 0;
   left: 0;
+  height:40em;
+}
+
+.section-content-portfolio h4 {
+  margin-top: 3em;
 }
 
 .div-content-project-grid-main hr {
   border-top: 3px dashed #F2995A;
-  width: 95%;
+  width: 90%;
 }
 
 .main-logo1 {
   position: relative;
-  top: 0;
+  top: 2em;
   left: 0;
   width: 100%;
   max-width: 500px;
@@ -166,11 +203,21 @@
   width: 15em;
   height: auto;
   position: absolute;
-  top: 10em;
-  left: 5em;
+  top: 15em;
+  left: 8em;
 }
 
 /* PROJECT COMPONENTS CSS */
+
+.pawpalImage {
+  width: 28em;
+  height: auto;
+}
+
+.imdbeatdownImage {
+  width: 30em;
+  height: auto;
+}
 
 .section-content-project {
   max-width: 800px;
@@ -184,8 +231,8 @@
 .div-content-project-grid-duel {
   display: flex;
   align-items: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
 
 .div-content-project-grid-single {
@@ -195,4 +242,43 @@
 .div-content-project-grid-single-odd {
   padding: 1em;
   text-align: right;
+}
+
+/* WHATSNEXT COMPONENTS CSS */
+
+.section-content-whatsnext {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.div-content-whatsnext-grid-main {
+
+}
+
+.div-content-whatsnext-grid-duel {
+  display: flex;
+  align-items: center;
+}
+
+.div-content-whatsnext-grid-single {
+  padding: 1em;
+}
+
+/* FOOTER COMPONENT CSS */
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links a {
+  color: white;
+  font-size: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.7em;
 }

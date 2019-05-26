@@ -6,7 +6,7 @@ export default function AboutMe({ title, subtitle, dark, id }) {
         <section className="section-content-aboutme" id={id}>
             <div className="div-content-aboutme-grid-main">
                 <div className="div-content-aboutme-grid-duel">
-                    <div className="div-content-aboutme-grid-single">
+                    <div className="div-content-aboutme-grid-single-odd">
                         <h1>{title}</h1>
                         <p>{subtitle}</p>
                     </div>
