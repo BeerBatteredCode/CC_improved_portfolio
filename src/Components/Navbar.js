@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
+import logoSmall from "../favicon.ico";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
@@ -12,7 +12,7 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <img
-            src={logo}
+            src={logoSmall}
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
