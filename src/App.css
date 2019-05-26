@@ -114,6 +114,7 @@
 .section-content-aboutme {
   max-width: 800px;
   margin: 0 auto;
+  height: 38.5em;
   padding: 40px;
 }
 
@@ -129,6 +130,12 @@
 .div-content-aboutme-grid-single-odd {
   padding: 1em;
   text-align: right;
+}
+
+.collage-filler1 {
+  width: 40em;
+  margin: 5em -10em 5em 0;
+  height: auto;
 }
 
 /* VIDEO COMPONENTS CSS */
@@ -249,7 +256,7 @@
 .section-content-whatsnext {
   max-width: 800px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 6em;
 }
 
 .div-content-whatsnext-grid-main {
@@ -263,6 +270,12 @@
 
 .div-content-whatsnext-grid-single {
   padding: 1em;
+}
+
+.collage-filler2 {
+  width: 40em;
+  margin: 5em 0 0 -10em;
+  height: auto;
 }
 
 /* FOOTER COMPONENT CSS */

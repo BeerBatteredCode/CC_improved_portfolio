@@ -1,4 +1,5 @@
 import React from "react";
+import CollageFiller from "../Media/Images/collage_filler.png";
 
 export default function AboutMe({ title, subtitle, dark, id }) {
   return (
@@ -11,7 +12,11 @@ export default function AboutMe({ title, subtitle, dark, id }) {
                         <p>{subtitle}</p>
                     </div>
                     <div className="div-content-aboutme-grid-single">
-                        <h1>IMAGES HERE</h1>
+                        <img
+                            src={CollageFiller}
+                            className="collage-filler1"
+                            alt="CollageFiller"
+                        />
                     </div>
                 </div>
             </div>
