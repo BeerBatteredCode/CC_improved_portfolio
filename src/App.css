@@ -15,10 +15,13 @@
 .nav-logo {
   height: 60px;
   width: 60px;
+  transition: 10s all ease-in-out;
+  /* border-radius: 90%; */
 }
 
 .nav-logo:hover {
   cursor: pointer;
+  transform: rotateZ(16000deg);
 }
 
 .nav .nav-content {
@@ -48,14 +51,14 @@
 
 .section {
   display: flex;
-  height: 50em;
+  height: fit-content;
   display: flex;
   padding: 10em;
 }
 
 .section-dark {
   display: flex;
-  height: 50em;
+  height: fit-content;
   background: linear-gradient(to right, #F2995A , #F2C95C);
   color: white;
 }
@@ -88,6 +91,10 @@
 
 /* VIDEO COMPONENTS CSS */
 
+.video-link {
+  width: 30em;
+}
+
 .section-content-video {
   max-width: 800px;
   margin: 0 auto;
@@ -97,13 +104,70 @@
 .div-content-video-grid-main {
 }
 
+.div-content-video-grid-main hr {
+  border-top: 3px dashed #F2995A;
+  width: 95%;
+}
+
 .div-content-video-grid-duel {
   display: flex;
   align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.div-content-video-grid-single-odd {
+  padding: 1em;
+  text-align: right;
 }
 
 .div-content-video-grid-single {
   padding: 1em;
+}
+
+/* PORTFOLIO HOMEPAGE CSS */
+
+.pawpalImage {
+  width: 30em;
+  height: auto;
+}
+
+.imdbeatdownImage {
+  width: 30em;
+  height: auto;
+}
+
+.section-content-portfolio {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.div-content-project-grid-main hr {
+  border-top: 3px dashed #F2995A;
+  width: 95%;
+}
+
+.main-logo1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 500px;
+  transition: 5s all ease-in-out;
+  border-radius: 90%;
+}
+
+.main-logo1:hover{
+  transform: rotateZ(720deg);
+}
+
+.main-logo2 {
+  width: 15em;
+  height: auto;
+  position: absolute;
+  top: 10em;
+  left: 5em;
 }
 
 /* PROJECT COMPONENTS CSS */
@@ -120,8 +184,15 @@
 .div-content-project-grid-duel {
   display: flex;
   align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .div-content-project-grid-single {
   padding: 1em;
+}
+
+.div-content-project-grid-single-odd {
+  padding: 1em;
+  text-align: right;
 }

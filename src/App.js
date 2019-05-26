@@ -28,7 +28,7 @@ class App extends Component {
           id="section2"
         />
         <Portfolio
-          title="Grant Rutherford Portfolio"
+          title="GRANT RUTHERFORD PORTFOLIO"
           subtitle={Text}
           dark={true}
           id="section3"

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logoSmall from "../favicon.ico";
+import logoSmall from "../Media/Images/circle_logo_filler.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
@@ -51,7 +51,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Contact Me
+                This Website
               </Link>
             </li>
             <li className="nav-item">
